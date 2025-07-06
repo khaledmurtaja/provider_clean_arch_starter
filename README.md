@@ -1,16 +1,42 @@
-# provider_template_clean
+# 🚀 Provider Clean Architecture Flutter Template
 
-A new Flutter project.
+A clean, modular, and scalable Flutter project template using `provider` and clean architecture principles.
 
-## Getting Started
+## 📁 Folder Structure
 
-This project is a starting point for a Flutter application.
+lib/
+├── core/ # Shared utilities, constants, services
+├── features/ # Feature-based modules
+│ └── auth/ # Example feature: Auth
+│ ├── data/
+│ ├── domain/
+│ └── presentation/
+├── main.dart # Entry point
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Built With
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/)
+- [Provider](https://pub.dev/packages/provider)
+- Clean Architecture pattern
+
+## 📦 Getting Started
+
+1. Install Flutter: https://docs.flutter.dev/get-started/install
+2. Run the project:
+   ```bash
+   flutter pub get
+   flutter run
+⚙️ Template Usage
+python flutter_template_generator.py
+The script will:
+
+Ask for your template path
+
+Ask for a new project name
+
+Create a new project from this template
+
+Rename package name (Android/iOS)
+
+Set up folder structure
