@@ -7,13 +7,13 @@ A clean, modular, and scalable Flutter project template using \`provider\` and c
 
 \`\`\`
 lib/
-├── core/                   # Shared utilities, constants, base classes
-├── features/               # Feature-first modules
-│   └── auth/               # Example feature: Auth
-│       ├── data/           # Data sources, models, repositories
-│       ├── domain/         # Use cases, entities, abstract repositories
-│       └── presentation/   # UI widgets, screens, state
-├── main.dart               # App entry point
+core/                 # Shared utilities, constants, base classes
+features/             # Feature-first modules
+auth/               # Example feature: Auth
+data/             # Data sources, models, repositories
+domain/           # Use cases, entities, abstract repositories
+presentation/     # UI widgets, screens, state
+main.dart             # App entry point
 \`\`\`
 
 ## 🛠 Built With
@@ -52,9 +52,9 @@ The tool will:
 - Ask for the path to the template
 - Ask for your new project name
 - Create a copy with updated:
-   - Project name
-   - Android package name
-   - iOS bundle identifier
+  - Project name
+  - Android package name
+  - iOS bundle identifier
 - Remove \`.git\` so you can start fresh
 
 ---
@@ -73,5 +73,5 @@ This template is free and open-source. Use it in personal or commercial projects
 
 ---
 
-Created with ❤️ by [khaled mortaja]
+Created with ❤️ by [Your Name or Organization]
 EOF
